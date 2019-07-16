@@ -1,5 +1,5 @@
 #Ignore Directories
-	node_modules/
+node_modules/
 #Ignore Images
-	*.png
-	result/*.png
+*.png
+result/*.png
