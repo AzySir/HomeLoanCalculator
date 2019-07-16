@@ -2,13 +2,13 @@
 Part 1 (FrontEnd Testing Scenario) - Coding Challenge 
 
 <hr />
-Overview
+<h2>Overview</h2>
 
 You recently applied for a role of Automation Test Engineer and have made it to the short list of candidates. Since we are looking for someone who can create an automated test framework, we require you to complete the following exercise.
 
 The task consists of programming exercises relating to frontend and API testing. In addition, it also contains related testing questions.
 
-Frontend Testing Scenario
+<h2>Frontend Testing Scenario</h2>
 
 Our developers have finished coding a borrowing calculator and would like to make sure that the calculator continues to work as they make other changes to the page. They have asked you to build automated tests covering various use cases to verify that the calculator is working properly. They intend to run these tests as part of continuous testing.
 
@@ -34,7 +34,7 @@ has a borrowing estimate of $479,000.
 “Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641.”
 
 
-Implementation Requirements
+<h2>Implementation Requirements</h2>
 
 •	You will need to create a project in either JavaScript or Java with minimal dependencies <br />
 •	The project should use Cucumber (gherkin - BDD) with an open source UI test automation runtime of your choice (e.g. Puppeteer, WebdriverIO) <br />
@@ -47,7 +47,7 @@ Implementation Requirements
 
 
 
-API Testing Scenario
+<h2>API Testing Scenario</h2>
 
 Your new team has an upcoming need to implement API testing. They do not have prior experience in that field and have requested you to create a project that will give them a template on how a proper testing solution should be setup and utilised. They intend to run the solution as part of continuous testing.
 
