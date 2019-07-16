@@ -14,7 +14,7 @@ Our developers have finished coding a borrowing calculator and would like to mak
 
 The current working production page is here: https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/
 
-Exercise
+<h3>Exercise</h3>
 
 Develop the following three tests:
 1.	A person with the following details: 
@@ -54,7 +54,7 @@ Your new team has an upcoming need to implement API testing. They do not have pr
 They have asked you to implement an API testing solution against an open API weather station available from the following URL. Please note that you will to register with the website in order to utilise their API.
 https://openweathermap.org/stations
 
-Exercise
+<h3>Exercise</h3>
 
 Using the API specification detailed in the URL above, develop the following tests:
 
@@ -83,7 +83,7 @@ message : "Invalid API key. Please see http://openweathermap.org/faq#error401 fo
 5.	Repeat the previous step and verify that returned HTTP response is 404 and that message body contains “message”: “Station not found".
 
 
-Implementation Requirements
+<h3>Implementation Requirements</h3>
 
 •	You will need to create a project in either JavaScript or Java with minimal dependencies
 •	The project should use Cucumber (gherkin - BDD) with an open source test automation runtime of your choice (e.g. Rest Assured)
@@ -93,11 +93,11 @@ Implementation Requirements
 
 
 
-Sharing Instructions
+<h3>Sharing Instructions</h3>
 
 Please complete the solutions and share them via public repository in GitHub. Please do not use ANZ Bank in any of the references. The repositories should contain clear instructions (README.md) on how to setup, tests and generate report as well as specify where to find results.
 
-Questions
+<h3>Questions</h3>
 
 1.	What other possible scenario would you suggest for given page? Suggest 3-5 with your suggestion.
 
