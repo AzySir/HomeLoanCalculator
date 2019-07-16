@@ -1,4 +1,5 @@
 #Ignore Directories
 	node_modules/
-#Ignore Files
-	calculator.png
+#Ignore Images
+	*.png
+	result/*.png
