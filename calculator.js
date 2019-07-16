@@ -110,6 +110,8 @@ const puppeteer = require('puppeteer');
     await page.screenshot({path: 'result/calculator.png'});
     
     await page.close();
+
+    //Test Error message
     
 })();
 
