@@ -1,0 +1,38 @@
+{
+  "name": "homeloancalculator",
+  "version": "1.0.0",
+  "description": "Test Script for Code Challenge",
+  "main": "calculator.js",
+  "dependencies": {
+    "cucumber": "^5.1.0",
+    "puppeteer": "^1.18.1",
+    "puppeteer-core": "^1.18.1"
+  },
+  "puppeteerOptions" : {
+    "headless": false,
+    "sloMo": 250,
+    "defaultViewport": {
+        "width": 1000,
+        "height": 1000
+    }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzySir/HomeLoanCalculator.git"
+  },
+  "keywords": [
+    "Cucumber",
+    "Puppeteer",
+    "Javascript"
+  ],
+  "author": "Adam Sir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AzySir/HomeLoanCalculator/issues"
+  },
+  "homepage": "https://github.com/AzySir/HomeLoanCalculator#readme"
+}
