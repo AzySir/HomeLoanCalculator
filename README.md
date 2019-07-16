@@ -1,6 +1,7 @@
 # HomeLoanCalculator
 Part 1 (FrontEnd Testing Scenario) - Coding Challenge 
 
+<hr />
 Overview
 
 You recently applied for a role of Automation Test Engineer and have made it to the short list of candidates. Since we are looking for someone who can create an automated test framework, we require you to complete the following exercise.
@@ -35,12 +36,12 @@ has a borrowing estimate of $479,000.
 
 Implementation Requirements
 
-•	You will need to create a project in either JavaScript or Java with minimal dependencies
-•	The project should use Cucumber (gherkin - BDD) with an open source UI test automation runtime of your choice (e.g. Puppeteer, WebdriverIO)
-•	The tests should target a browser of your choice (e.g. Chrome, Firefox)
-•	The tests should run through Command Line Interface in order to support CI/CD
-•	All tests should pass and produce new results every time they are run
-•	The solution should output results to JSON or XML and be able to generate HTML reports from the output file. 
+•	You will need to create a project in either JavaScript or Java with minimal dependencies <br />
+•	The project should use Cucumber (gherkin - BDD) with an open source UI test automation runtime of your choice (e.g. Puppeteer, WebdriverIO) <br />
+•	The tests should target a browser of your choice (e.g. Chrome, Firefox) <br />
+•	The tests should run through Command Line Interface in order to support CI/CD <br />
+•	All tests should pass and produce new results every time they are run <br />
+•	The solution should output results to JSON or XML and be able to generate HTML reports from the output file.  <br />
 
 
 
