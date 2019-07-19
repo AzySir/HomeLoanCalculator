@@ -1,19 +1,23 @@
 const puppeteer = require('puppeteer');
-
-
-
+// const getPage = require('./page');
+// console.log("After page");
 (async () => {
-    const browser = await puppeteer.launch({headless: false, args: ['--start-maximized', '--window-size=1920,1080']});
-    const page = await browser.newPage();
-    const myurl = "https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/"
-    await page.goto(myurl);
-    
-
+    console.log("After async");
+    try {
+        const page = await getPage();
+        console.log(page);
+        const number_of_dependants = await page.$x('//select[@title="Number of dependants"]'); //Number of dependants drop down
+        await number_of_dependants[0].click();
+        console.log("Yes");
+        console.log(await page.evaluate(() => document.title));
+    } catch (err) {
+        console.error(err);
+    }
 
     //FUNCTION()
     //Initialize the XPaths for each element we're looking at 
     const application_type = await page.$x('//input[@id="application_type_single"]'); //Applciation Type 
-    const number_of_dependants = await page.$x('//select[@title="Number of dependants"]'); //Number of dependants drop down
+    // const number_of_dependants = await page.$x('//select[@title="Number of dependants"]'); //Number of dependants drop down
     const number_of_dependants_option = await page.$x('//select[@title="Number of dependants"]/option'); //Number of dependants drop down
     const property_type = await page.$x('//*[@id="borrow_type_home"]'); //Borrower Type
     const your_earnings = await page.$x('//input[@aria-labelledby="q2q1"]'); // Your Earnings Input Box
@@ -31,7 +35,7 @@ const puppeteer = require('puppeteer');
     // await application_type[0].click();
 
     // b.	0 dependants, 
-    await number_of_dependants[0].click();
+    // await number_of_dependants[0].click();
     // await page.select('//select[@title="Number of dependants"]/option', '0');
     // await number_of_dependants_option[0].click();
     // console.log(number_of_dependants_option.length);
@@ -109,10 +113,8 @@ const puppeteer = require('puppeteer');
 
     await page.screenshot({path: 'result/calculator.png'});
     
-    await page.close();
-
-    
-})();
+    await page.close();  
+});
 
 
 
