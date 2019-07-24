@@ -2,7 +2,7 @@
 Part 1 (FrontEnd Testing Scenario) - Coding Challenge 
 
 <hr />
-<h2 color="grey">Overview</h2>
+<h2>Overview</h2>
 
 You recently applied for a role of Automation Test Engineer and have made it to the short list of candidates. Since we are looking for someone who can create an automated test framework, we require you to complete the following exercise.
 
