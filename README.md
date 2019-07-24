@@ -58,23 +58,23 @@ https://openweathermap.org/stations
 
 Using the API specification detailed in the URL above, develop the following tests:
 
-1.	Validate that attempt to register a weather station without an API key will return the following in message body.
+1.	Validate that attempt to register a weather station without an API key will return the following in message body.<br />
 
-cod : 401
-message : "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
+cod : 401<br />
+message : "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."<br />
 
-2.	Successfully register two stations with the following details and verify that HTTP response code is 201.
+<p>2.	Successfully register two stations with the following details and verify that HTTP response code is 201.</p>
 
-"external_id": "DEMO_TEST001",
-"name": "Team Demo Test Station 001",
-"latitude": 33.33,
-"longitude": -122.43,
-"altitude": 222
-"external_id": "DEMO_TEST002",
-"name": "Team Demo Test Station 002",
-"latitude": 44.44,
-"longitude": -122.44,
-"altitude": 111
+<li>"external_id": "DEMO_TEST001",</li>
+<li>"name": "Team Demo Test Station 001",</li>
+<li>"latitude": 33.33,</li>
+<li>"longitude": -122.43,</li>
+<li>"altitude": 222</li>
+<li>"external_id": "DEMO_TEST002",</li>
+<li>"name": "Team Demo Test Station 002",</li>
+<li>"latitude": 44.44,</li>
+<li>"longitude": -122.44,</li>
+<li>"altitude": 111</li>
 
 3.	Using “[GET] /stations” API verify that the stations were successfully stored in the DB and their values are the same as specified in the registration request.
 
