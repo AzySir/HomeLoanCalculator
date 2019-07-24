@@ -63,7 +63,7 @@ Using the API specification detailed in the URL above, develop the following tes
 cod : 401<br />
 message : "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."<br />
 
-<p>2.	Successfully register two stations with the following details and verify that HTTP response code is 201.</p>
+2.	Successfully register two stations with the following details and verify that HTTP response code is 201.
 
 <li>"external_id": "DEMO_TEST001",</li>
 <li>"name": "Team Demo Test Station 001",</li>
@@ -85,11 +85,11 @@ message : "Invalid API key. Please see http://openweathermap.org/faq#error401 fo
 
 <h3>Implementation Requirements</h3>
 
-•	You will need to create a project in either JavaScript or Java with minimal dependencies
-•	The project should use Cucumber (gherkin - BDD) with an open source test automation runtime of your choice (e.g. Rest Assured)
-•	The tests should run through Command Line Interface in order to support CI/CD
-•	All tests should pass and produce new results every time they are run
-•	The solution should output results to JSON or XML and be able to generate HTML reports from the output file. 
+<li>•	You will need to create a project in either JavaScript or Java with minimal dependencies</li>
+<li>•	The project should use Cucumber (gherkin - BDD) with an open source test automation runtime of your choice (e.g. Rest Assured)</li>
+<li>•	The tests should run through Command Line Interface in order to support CI/CD</li>
+<li>•	All tests should pass and produce new results every time they are run</li>
+<li>•	The solution should output results to JSON or XML and be able to generate HTML reports from the output file.</li>
 
 
 
